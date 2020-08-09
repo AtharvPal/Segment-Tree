@@ -27,5 +27,10 @@ INSTRUCTIONS -
 
    a. query(int leftindex, int rightindex) - returns a value according to comparison function; returns extravalue if invalid range. (0-based indexing)
    b. update(int index, datatype value) - updates the position index in the original array by value; leaves everything unchanged if invalid range. (0-based indexing)
+   
+5. Codeforces practice questions using above library - 
+   
+   a. https://codeforces.com/edu/course/2/lesson/4/1/practice/contest/273169/submission/88812979
+   b. https://codeforces.com/edu/course/2/lesson/4/1/practice/contest/273169/submission/88812873
  
 P.S to-do lazy propagation.
