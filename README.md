@@ -1,7 +1,7 @@
 # Segment-Tree
 A general purpose Segment Tree library
 
-This library implements a general purpose Segment Tree data structure. Operations include query() and update(). 
+This library implements a general purpose Segment Tree data structure. 
 
 INSTRUCTIONS - 
 
@@ -13,7 +13,8 @@ INSTRUCTIONS -
     c. An extravalue ehich is used to fill the remaining nodes of the segment tree.
     d. A comparison function that detemines how the parent node is filled wrt left and right child nodes.
  
- An exmaple of creating a segement tree of type double with sum queries-
+3. An example of creating a segment tree of type double with sum queries-
+ 
     double sum(double a, double b)
     {   return a+b; }
     double extravalue = 0.0;
@@ -23,6 +24,6 @@ INSTRUCTIONS -
     with vector - SEGMENT_TREE<double> s(arr1,extravalue,sum);
     with array - SEGMENT_TREE<double> s(arr2,size,extravalue,sum);
  
- 3.  Functions include - 
+4. Functions include - 
     a. query(int leftindex, int rightindex) - returns a value according to comparison function; returns extravalue if invalid range.
     b. update(int index, datatype value) - updates the position index in the original array by value; leaves everything unchanged if invalid range.
