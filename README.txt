@@ -6,7 +6,11 @@ INSTRUCTIONS -
 
 1. Include the heaader file "SEGTREE.h" in your header files directory and also in your code.
 
-2. To construct the segment tree you need to initalize an object of SEGMENT_TREE and specify the following - a. The datatype of the array/ vector. b. The array/ vector of which you need to construct the tree. c. An extravalue ehich is used to fill the remaining nodes of the segment tree. d. A comparison function that detemines how the parent node is filled wrt left and right child nodes.
+2. To construct the segment tree you need to initalize an object of SEGMENT_TREE and specify the following - 
+   a. The datatype of the array/ vector. 
+   b. The array/ vector of which you need to construct the tree. 
+   c. An extravalue ehich is used to fill the remaining nodes of the segment tree. 
+   d. A comparison function that detemines how the parent node is filled wrt left and right child nodes.
 
 3. An example of creating a segment tree of type double with sum queries-
 
