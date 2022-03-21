@@ -33,4 +33,3 @@ INSTRUCTIONS -
    a. https://codeforces.com/edu/course/2/lesson/4/1/practice/contest/273169/submission/88812979
    b. https://codeforces.com/edu/course/2/lesson/4/1/practice/contest/273169/submission/88812873
  
-P.S to-do lazy propagation.
